@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import os
-import email_validator
 
 from datetime import date
 from flask import Flask, abort, render_template, redirect, url_for, flash, request
