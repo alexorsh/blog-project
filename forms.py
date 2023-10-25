@@ -16,7 +16,7 @@ class CreatePostForm(FlaskForm):
 # Create a RegisterForm to register new users
 class RegisterForm(FlaskForm):
     name = StringField("Your name", validators=[DataRequired()])
-    email = StringField("Your email", validators=[Email()])
+    email = StringField("Your email", validators=[DataRequired()])
     password = PasswordField("Your password", validators=[DataRequired()])
     submit = SubmitField("Register User")
 
