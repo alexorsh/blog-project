@@ -33,4 +33,4 @@ class CommentForm(FlaskForm):
     submit = SubmitField("Submit Comment")
 
 
-# TODO: Create a CommentForm so users can leave comments below posts
+# Create a CommentForm so users can leave comments below posts
